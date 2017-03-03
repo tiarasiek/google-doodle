@@ -3,16 +3,21 @@
 /* Stage */
 
 #stage {
-    background: gray;
     height: 300px;
     width: 600px;
 }
 
-#stage #star {
-    height: 100px;
-    width: 100px;
+$bg0 : #44355b;
+$bg1 : #eb5e28;
+
+
+.bg0 {
+  background: $bg0;
 }
 
+.bg1 {
+  background: $bg1;
+}
 
 
 /* DO NOT EDIT BELOW THIS LINE */

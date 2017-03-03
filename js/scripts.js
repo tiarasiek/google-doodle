@@ -1,12 +1,7 @@
-// Store 3 images
-var img0 = '../img/200.jpg';
-var img1 = '../img/300.jpg';
-var img2 = '../img/400.jpg';
-
 // Get random number
-var max = 3;
-var numRand = Math.floor(Math.random() * max);
-console.log(numRand);
+var max = 2;
+var numRand = Math.floor(Math.random() * max );
+console.log(numRand)
 
-// Display random image
-$('#random').attr('src', eval('img' + numRand));
+// Change class on body element
+$('#stage').addClass('bg' + numRand);
