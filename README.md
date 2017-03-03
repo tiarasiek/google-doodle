@@ -15,3 +15,8 @@ http://www.livescience.com/40596-history-of-halloween.html
 
 Past Google doodles for Halloween:
 https://www.google.com/doodles?q=halloween
+
+Halloween themed pens:
+http://codepen.io/iamjamie/pen/QyZjdq
+http://codepen.io/zaneriley/pen/zLhBE
+http://codepen.io/YahiaRefaiea/pen/bVKjVe
