@@ -19,10 +19,24 @@ $bg2 : #ca3c25;
   background: $bg2;
 }
 
+#spider {
+    position: absolute;
+    transform: translateY(-80px);
+    
+    transition: transform 1s;
+}
+
+#spider:hover {
+    transform: translateY(-50px);
+    
+    transition: transform 2s;
+}
+
 #spiderwebs {
     padding-top: 4em;
 }
 
+//Pumpkin animation
 #pumpkin2 {
     animation: bounceInLeft 1s;
 }
