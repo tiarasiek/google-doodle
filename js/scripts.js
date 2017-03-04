@@ -1,5 +1,5 @@
 // Get random number
-var max = 2;
+var max = 3;
 var numRand = Math.floor(Math.random() * max );
 console.log(numRand)
 
@@ -8,11 +8,12 @@ $('#stage').addClass('bg' + numRand);
 
 // Draw SVG
 // Store SVG points
-var google = $('#spiderweb').drawsvg({
-  duration : 2500,
+var google = $('#spiderwebs').drawsvg({
+  duration : 3000,
   reverse: true,
-  stagger: 1000
+  stagger: 50
 });
+
 
 // Animate SVG points
 google.drawsvg('animate');
