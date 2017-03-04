@@ -2,24 +2,28 @@
 
 @import 'google-homepage';
 
-
-$bg0 : #31572c;
-$bg1 : #ca3c25;
-$bg2 : #f7dba7;
-
-
-.bg0 {
-  background: $bg0;
-}
-
-.bg1 {
-  background: $bg1;
-}
-
-.bg2 {
-    background: $bg2;
-}
-
-#spiderwebs {
+//First frame
+img {
+    opacity: .5;
+    width: 40%;
+    transform: scale(.25) rotate(0);
     
+    transition: transform 1.5s;
+}
+
+//Last frame
+img:hover {
+    opacity: 1;
+    transform: scale(1.5) rotate(100deg);
+}
+
+.line {
+    fill:none;
+    stroke:#000000;
+    stroke-width:2;
+    stroke-miterlimit:10;
+}
+
+.line:hover {
+    stroke: red;
 }
