@@ -9,9 +9,9 @@ $('#stage').addClass('bg' + numRand);
 // Draw SVG
 // Store SVG points
 var google = $('#spiderwebs').drawsvg({
-  duration : 3000,
+  duration : 4000,
   reverse: true,
-  stagger: 50
+  stagger: 60
 });
 
 
