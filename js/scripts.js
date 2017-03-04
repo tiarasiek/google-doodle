@@ -5,6 +5,7 @@ console.log(numRand)
 
 // Change class on body element
 $('#stage').addClass('bg' + numRand);
+$('button').addClass('bg' + numRand);
 
 // Draw SVG
 // Store SVG points
