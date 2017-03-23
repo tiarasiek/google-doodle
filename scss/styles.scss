@@ -1,6 +1,10 @@
 // Grand Central Station
 
 @import 'google-homepage';
+@font-face {
+  font-family: "Gorestep";
+  src: url(/font/Gorestep.ttf) format("truetype");
+}
 
 $bg0 : #7139ab;
 $bg1 : #037144;
