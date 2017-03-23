@@ -1,1 +1,14 @@
-{ "path": { "scss/styles.scss": { "sass.enabled": true, "sass.options": { "outputDir": "../css/", "sourceComments": false, "outputStyle": "compressed" } } } }
+{
+    "path": {
+        "scss/styles.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "sourceComments": false,
+                "outputStyle": "compressed"
+            },
+            "fonts.fontSize": "12px",
+            "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace"
+        }
+    }
+}
