@@ -21,15 +21,12 @@ $bg2 : #ca3c25;
 
 #spider {
     position: absolute;
-    transform: translateY(-80px);
-    
+    transform: translateY(-200px);
     transition: transform 1s;
 }
 
-#spider:hover {
-    transform: translateY(-50px);
-    
-    transition: transform 2s;
+#stage:hover > #spider {
+    transform: translateY(-60px);
 }
 
 #spiderwebs {
