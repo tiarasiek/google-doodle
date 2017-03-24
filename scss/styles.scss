@@ -2,10 +2,15 @@
 
 @import 'google-homepage';
 
-$bg0 : #7139ab;
-$bg1 : #037144;
-$bg2 : #dc452c;
+$bg0 : #904ed4;
+$bg1 : #207552;
+$bg2 : #f7573c;
 
+body {
+background: #000000; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+}
 
 .bg0 {
   background: $bg0;
